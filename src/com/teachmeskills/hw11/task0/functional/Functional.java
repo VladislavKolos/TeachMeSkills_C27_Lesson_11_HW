@@ -5,7 +5,7 @@ import java.util.Locale;
 /**
  * Class with static methods to display numbers in one line, to display the changed document number, to display only one letter from the document number in a certain format in lower case, to display only letters from the document number in a certain format in upper case (using the class StringBuilder), to checking the contents of the sequence, to whether the document number begins with the sequence, to whether the document number ends with the sequence, to find and display the shortest and longest words in the line, to display a new line in which each letter from the initial line is duplicated.
  */
-public class Functional {
+public final class Functional {
     private Functional() {
     }
 
