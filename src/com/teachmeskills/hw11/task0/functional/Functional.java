@@ -17,13 +17,8 @@ public final class Functional {
     public static void outputDocNumber(String docNumber) {
         String docNumber1 = docNumber.substring(18);
         docNumber = docNumber.substring(0, 18).toLowerCase(Locale.ROOT);
-        docNumber = docNumber.replace("a", "*");
-        docNumber = docNumber.replace("b", "*");
-        docNumber = docNumber.replace("c", "*");
-        docNumber = docNumber.replace("d", "*");
-        docNumber = docNumber.replace("e", "*");
-        docNumber = docNumber.replace("f", "*");
-        System.out.println("Result of the second task: " + docNumber + docNumber1);
+        String[] array = docNumber.split("-");
+        System.out.println(array[0] + "-" + "***" + "-" + array[2] + "-" + "***" + "-" + docNumber1);
     }
 
     public static void outputOnlyLetters(String docNumber) {
